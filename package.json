@@ -1,0 +1,45 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "lint": "./node_modules/eslint/bin/eslint.js --cache --fix ./App"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "gradlew-update": "^1.0.3",
+    "lottie-react-native": "^2.5.11",
+    "native-base": "^2.12.1",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-app-intro-slider": "^2.0.1",
+    "react-native-autocomplete-input": "^3.6.0",
+    "react-native-awesome-alerts": "^1.2.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-firebase": "^5.3.1",
+    "react-native-google-signin": "^2.0.0",
+    "react-native-responsive-screen": "^1.2.1",
+    "react-native-testing-library": "^1.9.1",
+    "react-navigation": "^3.3.2",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-expo": "^5.0.0",
+    "babel-preset-react-native": "^4.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "^16.8.6"
+  },
+  "private": true
+}
